@@ -1,7 +1,7 @@
 {
   "name": "xbee-stream",
   "description": "Streaming layer on top of the xbee-api Node.js module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jouz/xbee-stream",
   "author": {
     "name": "Jan Kolkmeier",
@@ -29,7 +29,7 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "xbee-api": "~0.1.0"
+    "xbee-api": "~0.2.2"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
