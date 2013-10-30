@@ -3,7 +3,7 @@ var SerialPort = require('serialport').SerialPort;
 var MuxDemux = require('mux-demux');
 var net = require("net");
 
-var xbee_stream = require('./lib/xbee-stream.js');
+var xbee_stream = require('../../lib/xbee-stream.js');
 var C = xbee_stream.xbee_api.constants;
 
 var xbeeStream = new xbee_stream.XBeeStream({
@@ -12,7 +12,7 @@ var xbeeStream = new xbee_stream.XBeeStream({
   }
 });
 
-var serialport = new SerialPort("COM6", {
+var serialport = new SerialPort("COM5", {
   baudrate: 57600,
   parser: xbeeStream.xbeeAPI.rawParser()
 });

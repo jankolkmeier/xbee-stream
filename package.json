@@ -29,7 +29,7 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "xbee-api": "~0.2.2"
+    "xbee-api": "~0.3.2"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
